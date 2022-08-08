@@ -1,0 +1,30 @@
+let homeScore = document.getElementById("homeScore-el")
+let guestScore = document.getElementById("guestScore-el")
+homeCount = 0
+guestCount = 0
+
+function hAdd1(){
+    homeCount += 1
+    homeScore.innerText = homeCount
+}
+function hAdd2(){
+    homeCount += 2
+    homeScore.innerText = homeCount
+}
+function hAdd3(){
+    homeCount += 3
+    homeScore.innerText = homeCount
+}
+
+function gAdd1(){
+    guestCount += 1
+    guestScore.innerText = guestCount
+}
+function gAdd2(){
+     guestCount += 2
+    guestScore.innerText = guestCount
+}
+function gAdd3(){
+     guestCount += 3
+    guestScore.innerText = guestCount
+}
