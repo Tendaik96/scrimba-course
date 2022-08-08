@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 100vh;
+   
+}
+
+h3 {color: white;
+text-align: center;
+font-family: Verdana;
+font-size: 40px;
+margin-bottom: 10px;}
+
+.tile { background-color: black;
+height: 120px;
+width: 155px;}
+
+.number{color: #F94F6D;
+font-size: 100px;
+text-align: center;
+margin: 0;
+font-family: Cursed Timer ULiL;}
+
+.container2{
+display: flex;
+justify-content: space-around;
+height: 45px;
+width: 155px;
+margin-top: 20px; }
+
+.points{font-size: 12px;
+font-family: Cursed Timer ULiL;
+border: white solid 1px;
+border-radius: 5px;
+padding: 15px 15px 15px 15px;
+background-color: #1B244A;
+color: white;}
